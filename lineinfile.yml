@@ -4,4 +4,4 @@
  tasks:
    -
     name: append a line in txt file
-    lineinfile: path=/tmp/commandtest.txt line="this line appended"
+    lineinfile: path=/tmp/commandtest.txt line="this line appended and edit again and check-in to github"
