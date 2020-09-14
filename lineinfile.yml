@@ -1,0 +1,7 @@
+-
+ name: lineinfile module playbook
+ hosts: webserver1
+ tasks:
+   -
+    name: append a line in txt file
+    lineinfile: path=/tmp/commandtest.txt line="this line appended"
